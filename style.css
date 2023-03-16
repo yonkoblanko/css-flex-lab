@@ -1,0 +1,30 @@
+* {
+	  box-sizing: border-box;
+  border-radius: 50%;
+	}
+	
+	body {
+	  margin: 0;
+	  font-family: Helvetica;
+    border-radius: 50%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 20% 20% 20%;
+    place-items: center;
+    gap:  15px;
+	}
+h2 {
+  text-align: center;
+  }
+img {
+  text-align: center;
+  
+  object-fit: cover;
+  max-width: 20%;
+  
+}
+div h3{
+    text-align: center;
+  }
+  
+
